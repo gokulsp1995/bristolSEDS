@@ -7,7 +7,7 @@ print(cv2.__version__)
 qr = cv2.QRCodeDetector()
 print("Detector works:", qr is not None)
 
-pi_ip = '192.168.133.29'  
+pi_ip = '192.168.253.29'  
 port = 8485
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
